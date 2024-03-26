@@ -1,0 +1,43 @@
+.wrapper{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+   
+}
+button{
+    padding:10px 20px;
+    background:#614101;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius:3px;
+    font-weight: bold;
+    font-size:20px;
+}
+.accordion{
+    width:500px;
+}
+.item{
+    background:#614101;
+    margin-bottom: 10px;
+    padding:10px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+.title{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+}
+.content{
+    color:white;
+    height: auto;
+}
